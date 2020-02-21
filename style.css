@@ -1,0 +1,295 @@
+* {
+    padding: 0px;   
+    margin: 0px; 
+} 
+
+a:hover {
+    color: rgb(255, 255, 255); 
+}
+
+a {
+    font-family: "Courier New"; 
+    color: rgb(242, 159, 5); 
+}
+
+.navbar { 
+    background-color: rgb(13, 13, 13);
+    height: 250px; 
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+} 
+
+.navbar-logo { 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 50%; 
+    height: 200px; 
+}
+
+.main-tabs {
+    list-style: none; 
+    float: left; 
+}
+
+.tab {
+     font-size: 20px; 
+     float: left; 
+     padding: 10px 25px 90px 160px; 
+}
+
+.hero-image {
+    font-size: 75px; 
+    color: rgb(255, 255, 255); 
+    height: 704px; 
+    width: 100%; 
+    background-image: url("./img/moving-image.webp"); 
+    background-size: cover; 
+}
+
+.main-title { 
+    text-align: center; 
+    position: relative; 
+    top: 300px; 
+    background-color: rgba(13, 13, 13, .7); 
+    font-family: 'Monoton', cursive;
+}
+
+.main-title-date {
+    text-align: center; 
+    position: relative; 
+    top: 300px; 
+    color: rgb(255,69,0);
+    background-color: rgba(13, 13, 13, .7); 
+    font-family: 'Monoton', cursive;
+}
+
+/* .home-content {
+    height: 450px; 
+    width: 100%; 
+    background-color: rgb(13, 13, 13); 
+}
+
+.content-image {
+    color: rgb(235, 233, 221); 
+}
+
+.content-paragraph {
+
+} */
+
+.footer {
+    background-color: rgb(13, 13, 13); 
+    height: 50px; 
+    width: 100%; 
+}
+.footer-item {
+    color: rgb(255, 255, 255); 
+    font-size: 20px; 
+    float: left; 
+    margin-top: 10px; 
+    margin-left: 300px; 
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(242, 159, 5);
+    border-radius: 15px;
+  }
+
+  /* ABOUT PAGE */
+
+/* .about-image {
+    height: 704px; 
+    width: 100%; 
+    background-image: url("./img/world-map.jpg"); 
+    background-size: cover; 
+  } */
+
+.about-container {  
+    padding-top: 100px; 
+    height: 750px;  
+    width: 100%;  
+    margin-top: 250px; 
+    /* margin-bottom: 20px;  */
+    background-size: 100% 100%; 
+    /* background-repeat: no-repeat;  */
+    background-image: url(./img/lights-2.jpg); 
+}  
+
+.about-title-page {
+    text-align: center; 
+    font-size: 50px; 
+    padding-bottom: 50px; 
+    color: rgb(255, 255, 255); 
+    font-family: 'Monoton', cursive;
+}
+
+.about-column {
+    width: 400px; 
+    border: 5px solid rgb(5, 5, 5); 
+    float: left; 
+    padding: 25px 35px; 
+    margin-left: 20px; 
+    overflow: hidden; 
+    text-align: center; 
+    background-color: rgba(13, 13, 13, .8); 
+    color: rgb(255, 255, 255); 
+}
+
+.about-img {
+    width: 400px; 
+    height: 300px; 
+}
+
+.about-img-1 {
+    width: 400px; 
+    height: 315px; 
+}
+
+.about-audio {
+    margin-top: 250px; 
+}
+
+/* SHOWTIMES PAGE */
+
+.showtime-title-page {
+    text-align: center; 
+    font-size: 50px; 
+    padding-bottom: 50px; 
+    color: rgb(255, 255, 255); 
+    font-family: 'Monoton', cursive;
+}
+
+.showtime-container {  
+    padding-top: 100px; 
+    height: 1600px;  
+    width: 100%;  
+    margin-top: 250px; 
+    /* margin-bottom: 20px;  */
+    background-size: 100% 100%; 
+    /* background-repeat: no-repeat;  */
+    background-image: url(./img/lights-2.jpg); 
+}  
+
+.showtime-column {
+    width: 370px; 
+    border: 5px solid rgb(13, 13, 13); 
+    float: left; 
+    padding: 25px 50px; 
+    margin-left: 20px; 
+    overflow: hidden; 
+    text-align: center; 
+    background-color: rgba(13, 13, 13, .8); 
+    color: rgb(255, 255, 255); 
+}
+
+.movie-title {
+    font-size: 30px; 
+    color: rgb(242, 159, 5); 
+}
+
+.movie-title-2 {
+    font-size: 25px; 
+    color: rgb(242, 159, 5); 
+}
+
+.showtime-img-1 { 
+    width: 400px; 
+    height: 405px; 
+}
+
+.showtime-img-2 { 
+    width: 400px; 
+    height: 335px; 
+}
+
+.showtime-img-3 { 
+    width: 400px; 
+    height: 300px; 
+}
+
+.showtime-img-4 { 
+    width: 400px; 
+    height: 368px; 
+}
+
+.showtime-img-5 {
+    width: 400px; 
+    height: 350px; 
+}
+
+.showtime-img-6 {
+    width: 400px; 
+    height: 388px; 
+}
+
+/* CONTACT PAGE */
+
+.contact-container {
+    margin-top: 250px;
+}
+
+.contact-title-page {
+    text-align: center; 
+    font-size: 50px; 
+    padding-top: 75px; 
+    padding-bottom: 50px; 
+    color: rgb(255, 255, 255);  
+    font-family: 'Monoton', cursive;
+}
+
+.contact-main-section {
+    height: 1000px; 
+    width: 100%; 
+    /* background-image: url(./img/lights-2.jpg);  */
+    background-image: url(./img/fresno-downtown.jpg); 
+}
+
+.contact-column { 
+    width: 50%; 
+    float: right; 
+}
+
+/* LOCATIONS PAGE */
+
+.locations-container {
+    padding-top: 100px; 
+    height: 800px;  
+    width: 100%;  
+    margin-top: 250px; 
+    /* margin-bottom: 20px;  */
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;  
+    background-image: url(./img/lights-2.jpg); 
+}
+
+.locations-title-page {
+    text-align: center; 
+    font-size: 50px; 
+    padding-bottom: 50px; 
+    color: rgb(255, 255, 255); 
+    font-family: 'Monoton', cursive;
+
+}
+.locations-map {
+    /* margin-top: 50px;  */
+    margin-left: 180px; 
+    height: 500px; 
+    width: 75%; 
+    background-image: url(./img/film-festival-map-FINAL.PNG); 
+    background-repeat: no-repeat; 
+}
+
